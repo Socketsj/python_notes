@@ -8,7 +8,7 @@ def application(environ, start_response):
     return [body.encode('utf-8')]
 ```
 
-###
+### WSGI server
 ```python
 from wsgiref.simple_server import make_server
 from hello import application
